@@ -1,19 +1,20 @@
 @charset "UTF-8";
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
 }
 
-header{
+header {
     width: 100%;
     height: 754px;
     background: url('imagens/imagemFundoHeader.png')center/cover no-repeat;
 
 }
 
-header>section{
+header>section {
     width: 665px;
     height: 283px;
     position: relative;
@@ -22,22 +23,22 @@ header>section{
 }
 
 
-header>section>div{
+header>section>div {
     width: 665px;
     height: 283px;
 }
 
-header>section>div>h1{
+header>section>div>h1 {
     font-size: 64px;
 }
 
-header>section>div>p{
+header>section>div>p {
     font-size: 20px;
 }
 
 /*qualidades e processos*/
 
-section#qualidades-processos{
+section#qualidades-processos {
     display: flex;
     width: 80%;
     height: 793px;
@@ -45,28 +46,30 @@ section#qualidades-processos{
     flex-direction: column;
     align-items: center;
 }
-#qualidades-processos>div#text{
+
+#qualidades-processos>div#text {
     width: 60%px;
 
-    p{
+    p {
         font-size: 20px;
         text-align: center;
         margin-top: 20px;
     }
-    h2{
-    font-size: 36px;
-    text-align: center;
-}
+
+    h2 {
+        font-size: 36px;
+        text-align: center;
+    }
 }
 
-div#cards{
+div#cards {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin:auto;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
     gap: 100px;
 }
 
-.cards{
+.cards {
     margin: auto;
     width: 200px;
     height: 50px;
@@ -75,7 +78,7 @@ div#cards{
 }
 
 /*oq oferecemos de melhor*/
-section.oq-oferecemos{
+section.oq-oferecemos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,32 +88,33 @@ section.oq-oferecemos{
 
 }
 
-section.oq-oferecemos>div#text-2{
+section.oq-oferecemos>div#text-2 {
     width: 80%;
     height: 104px;
     margin: 80px 0px 0px 0px;
 }
 
-section.oq-oferecemos>div#text-2>h2{
+section.oq-oferecemos>div#text-2>h2 {
     font-size: 48px;
     color: white;
     text-align: center;
 }
-section.oq-oferecemos>div#text-2>p{
+
+section.oq-oferecemos>div#text-2>p {
     text-align: center;
     font-size: 18px;
     color: white;
     margin-top: 10px;
 }
 
-section.oq-oferecemos>div#arrow{
+section.oq-oferecemos>div#arrow {
     display: flex;
     color: white;
     align-items: center;
     margin: 70px 0px 0px 0px;
 }
 
-section.oq-oferecemos>div>div.iot{
+section.oq-oferecemos>div>div.iot {
     display: flex;
     width: 150px;
     align-items: center;
@@ -119,7 +123,7 @@ section.oq-oferecemos>div>div.iot{
 
 /*gestao de projetos*/
 
-section.gestaodequalidade{
+section.gestaodequalidade {
     width: 80%;
     height: 1080px;
     margin: 100px auto;
@@ -128,7 +132,8 @@ section.gestaodequalidade{
     flex-direction: column;
     gap: 50px;
 }
-section.gestaodequalidade>div.dvs{
+
+section.gestaodequalidade>div.dvs {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -136,27 +141,29 @@ section.gestaodequalidade>div.dvs{
     gap: 50px;
     width: 100%;
     height: 480px;
+
 }
 
-section.gestaodequalidade>div.dvs:nth-child(even){
+section.gestaodequalidade>div.dvs:nth-child(even) {
     flex-direction: row-reverse;
 }
 
 
-section.gestaodequalidade>div.dvs>div#texto-1,#texto-2{
+section.gestaodequalidade>div.dvs>div#texto-1,
+#texto-2 {
     width: 48%;
 }
 
-section.gestaodequalidade>div.dvs>div>h2{
+section.gestaodequalidade>div.dvs>div>h2 {
     font-size: 64px;
 }
 
-section.gestaodequalidade>div.dvs>div>p{
+section.gestaodequalidade>div.dvs>div>p {
     color: #808080;
 
 }
 
-section.gestaodequalidade>div.dvs>div>button{
+section.gestaodequalidade>div.dvs>div>button {
     background-color: #F84646;
     width: 160px;
     height: 48px;
@@ -169,16 +176,16 @@ section.gestaodequalidade>div.dvs>div>button{
     transition: background-color 300ms;
 }
 
-section.gestaodequalidade>div.dvs>div>button:hover{
+section.gestaodequalidade>div.dvs>div>button:hover {
     background-color: #b73f3f;
 }
 
-section.gestaodequalidade>div.dvs>div.imgs{
+section.gestaodequalidade>div.dvs>div.imgs {
     width: 52%;
     height: 480px;
 }
 
-img.imgs-qualidades{
+img.imgs-qualidades {
     width: 100%;
     height: 480px;
     border-radius: 8px;
@@ -187,7 +194,7 @@ img.imgs-qualidades{
 
 /*nossas referencias*/
 
- section#referencias{
+section#referencias {
     width: 100%;
     height: 603px;
     text-align: center;
@@ -195,26 +202,27 @@ img.imgs-qualidades{
     display: flex;
     align-items: center;
     flex-direction: column;
- }
+}
 
- section#referencias>div#texto-3{
+section#referencias>div#texto-3 {
     width: 80%;
     height: 101px;
     margin: 50px 0px;
- }
- section#referencias>div#texto-3>h2{
+}
+
+section#referencias>div#texto-3>h2 {
     font-size: 48px;
 }
 
-section#referencias>div#cards-referencias{
+section#referencias>div#cards-referencias {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 24px;
     height: 336px;
 }
 
-section#referencias>div#cards-referencias>div{
+section#referencias>div#cards-referencias>div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,48 +231,49 @@ section#referencias>div#cards-referencias>div{
     background-color: white;
     border-radius: 10px;
 }
-.card-referencas-1{
+
+.card-referencas-1 {
     grid-area: 1/3;
 }
 
-.card-referencas-2{
+.card-referencas-2 {
     grid-area: 2/2;
 }
 
-.card-referencas-3{
+.card-referencas-3 {
     grid-area: 3/1;
 }
 
-.card-referencas-4{
+.card-referencas-4 {
     grid-area: 2/3;
 }
 
 
-.card-referencas-5{
+.card-referencas-5 {
     grid-area: 3/2;
 }
 
 
-.card-referencas-6{
+.card-referencas-6 {
     grid-area: 2/4;
 }
 
 
-.card-referencas-7{
+.card-referencas-7 {
     grid-area: 3/3;
 }
 
-.card-referencas-8{
+.card-referencas-8 {
     grid-area: 3/4;
 }
 
-.card-referencas-9{
+.card-referencas-9 {
     grid-area: 3/5;
 }
 
 /*contato*/
 
-section#contato{
+section#contato {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,13 +281,16 @@ section#contato{
     width: 70%;
     height: 314px;
     text-align: center;
-    margin:  100px auto;
+    margin: 100px auto;
 }
 
-section#contato>button,h2,p{
+section#contato>button,
+h2,
+p {
     margin: 10px 0;
 }
-section#contato>button{
+
+section#contato>button {
     width: 282px;
     height: 70px;
     border: none;
@@ -290,16 +302,16 @@ section#contato>button{
     transition: background-color 300ms;
 }
 
-section#contato>button:hover{
+section#contato>button:hover {
     background-color: #b73f3f;
 }
 
 /*pé do site*/
 
-section.pe{
+section.pe {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 30px;
     width: 100%;
     height: 504px;
@@ -307,7 +319,7 @@ section.pe{
     color: white;
 }
 
-section.pe>div.box{
+section.pe>div.box {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -315,20 +327,355 @@ section.pe>div.box{
     height: 212px;
 }
 
-section.pe>div>div.informarçoes-links{
+section.pe>div>div.informarçoes-links {
     width: 256px;
     height: 211px;
     display: flex;
     flex-direction: column;
 }
 
-section.pe>div>div>nav>a{
+section.pe>div>div>nav>a {
     display: flex;
     margin: 5px 0;
     color: rgb(218, 218, 218);
     transition: color 400ms;
 }
 
-section.pe>div>div>nav>a:hover{
+section.pe>div>div>nav>a:hover {
     color: rgb(179, 0, 255);
 }
+
+
+/*responsividade*/
+
+/*ipad*/
+
+@media only screen and (max-width:1024px) {
+
+    /*qualidades e processos*/
+
+    section#qualidades-processos {
+        display: flex;
+        width: 80%;
+        height: 1000px;
+        margin: 100px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#cards {
+        transition: 1s;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        gap: 10px 100px;
+    }
+
+    .cards {
+        margin: auto;
+        width: 150px;
+        height: 250px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    /*o que oferecemos de melhor*/
+
+    section.oq-oferecemos {
+        height: auto;
+    }
+
+    section.oq-oferecemos>div#arrow {
+        height: auto;
+        margin: 100px 0px;
+        flex-direction: column;
+    }
+
+    section.oq-oferecemos>div#arrow>div {
+        flex-direction: column;
+        text-align: 
+        center;
+    }
+
+    section.oq-oferecemos>div#arrow>div>img {
+        transform: rotate(90deg);
+        margin:auto;
+    }
+
+    /*gestao de qualidade*/
+
+    section.gestaodequalidade {
+        width: 100%;
+        height: auto;
+        margin: 100px auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    section.gestaodequalidade>div.dvs {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        gap: 50px;
+        width: 100%;
+        height: auto;
+
+    }
+
+    section.gestaodequalidade>div.dvs>div#texto-1,
+    #texto-2 {
+        width: 95%;
+    }
+
+    section.gestaodequalidade>div.dvs:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    section.gestaodequalidade>div.dvs>div>h2 {
+        font-size: 58px;
+    }
+
+    section.gestaodequalidade>div.dvs>div>button {
+        background-color: #F84646;
+        width: 360px;
+        height: 48px;
+        border: none;
+        border-radius: 8px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    section.gestaodequalidade>div.dvs>div.imgs {
+        width: 90%;
+        height: 480px;
+    }
+
+    /*referencias*/
+
+    section#referencias>div#cards-referencias {
+        margin-top: 10px;
+        height: 330px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 2fr;
+
+    }
+
+    .card-referencas-1 {
+        grid-area: auto;
+    }
+
+    .card-referencas-2 {
+        grid-area: auto;
+    }
+
+    .card-referencas-3 {
+        grid-area: auto;
+    }
+
+    .card-referencas-4 {
+        grid-area: auto;
+    }
+
+
+    .card-referencas-5 {
+        grid-area: auto;
+    }
+
+
+    .card-referencas-6 {
+        grid-area: auto;
+    }
+
+
+    .card-referencas-7 {
+        grid-area: auto;
+    }
+
+    .card-referencas-8 {
+        grid-area: auto;
+    }
+
+    .card-referencas-9 {
+        grid-area: auto;
+    }
+
+    /*pé*/
+
+    section.pe {
+        height: auto;
+    }
+
+    section.pe>div.box {
+        width: 95%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:1360px) {
+    section#qualidades-processos {
+        display: flex;
+        width: 80%;
+        height: 1000px;
+        margin: 100px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#cards {
+        transition: 1s;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        gap: 10px 100px;
+    }
+
+    .cards {
+        margin: auto;
+        width: 150px;
+        height: 250px;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+/*mobile*/
+@media only screen and (max-width:600px) {
+
+        /*header*/
+
+        body{
+            transition: grid-template-colomns 1s;
+}
+
+        header>section {
+            width: 95%;
+            height: auto;
+            position: relative;
+            top: 236px;
+            left: 0;
+            margin-left: 20px;
+        }
+
+        header>section>div {
+            width: 100%;
+            height: auto;
+        }
+
+        header>section>div>h1 {
+            font-size: 42px;
+            width: 100%;
+            background-color: red;
+        }
+
+        header>section>div>p{
+            width: 100%;
+        }
+
+    section#qualidades-processos {
+        display: flex;
+        width: 80%;
+        height: auto;
+        margin: 100px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        gap: 10px 100px;
+        height: auto;
+    }
+
+    .cards {
+        margin:50px auto;
+        width: 150px;
+        height: 250px;
+        text-align: center;
+    }
+
+    section#referencias {
+        height: auto;
+    }
+
+    section#referencias>div#cards-referencias {
+        margin: 100px 0px;
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .card-referencas-1 {
+        grid-area: auto;
+    }
+
+    .card-referencas-2 {
+        grid-area: auto;
+    }
+
+    .card-referencas-3 {
+        grid-area: auto;
+    }
+
+    .card-referencas-4 {
+        grid-area: auto;
+    }
+
+    .card-referencas-5 {
+        grid-area: auto;
+    }
+
+    .card-referencas-6 {
+        grid-area: auto;
+    }
+
+    .card-referencas-7 {
+        grid-area: auto;
+    }
+
+    .card-referencas-8 {
+        grid-area: auto;
+    }
+
+    .card-referencas-9 {
+        grid-area: auto;
+    }
+
+    /*pé*/
+
+    section.pe {
+        height: auto;
+    }
+
+    section.pe>div.box {
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        height: auto;
+        flex-direction: column;
+    }
+
+
+
+    h2{
+    font-size: 36px !important;
+}
+}
+
+    @media only screen and (max-width:835px) {
+
+        /*header*/
+
+        header>section>div>h1 {
+            transition: font-size 1s;
+            font-size: 42px;
+            width: 100%;
+}
+    }
